@@ -10,7 +10,7 @@ const app = express()
 app.use(express.json())
 //app.use(libroRoutes);
 
-const allowedOrigins = ['https://history-fronted-2.onrender.com', 'http://localhost:5173'];
+const allowedOrigins = ['http://localhost:5173' , 'https://history-fronted-2.onrender.com'];
 
 app.use(cors({
     origin: function (origin, callback) {
